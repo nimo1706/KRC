@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>JavaDevelop</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico">
+    <link rel="stylesheet" href="./assets/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/bootstrap-icons.css">
+    <link rel="stylesheet" href="./assets/bootstrap.carousel.css">
+    <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">JavaDevelop</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0"><!-- JavaScript 設定 --></ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="myCarousel" class="carousel slide bg-secondary" data-bs-ride="carousel">
+            <div class="carousel-indicators"><!-- JavaScript 設定 --></div>
+            <div class="carousel-inner"><!-- JavaScript 設定 --></div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden"></span>
+            </button>
+        </div>
+
+        <div class="container chapters">
+            <!-- Three columns of text below the carousel -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="chapter_img bg-secondary mx-auto border rounded-circle p-3"></div>
+                    <h2 class="fw-normal">Heading</h2>
+                    <p>Some representative placeholder content for the three columns of text below the carousel. This is the first.</p>
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="chapter_img bg-secondary mx-auto border rounded-circle p-3"></div>
+                    <h2 class="fw-normal">Heading</h2>
+                    <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second.</p>
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="chapter_img bg-secondary mx-auto border rounded-circle p-3"></div>
+                    <h2 class="fw-normal">Heading</h2>
+                    <p>And lastly this, the third column of representative placeholder content. If there are more, let's add them.</p>
+                    <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+                </div><!-- /.col-lg-4 -->
+            </div><!-- /.row -->
+        </div>
+    </main>
+
+    <footer class="footer mt-auto fixed-bottom py-3 bg-secondary"></footer>
+
+    <script src="./assets/bootstrap.bundle.min.js"></script>
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+/* styles.css */
+
+.main-wrapper {
+  display: flex;
+}
+
+.user-info-section {
+  height: 100px;
+  display: table;
+}
+
+.user-info-container {
+	height: 100px;
+	display: table
+}
+
+.user-info-container img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 5px 10px 0px 5px;
+}
+
+.user-info-username {
+  font-weight: bold;
+  font-size: 30px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.tweet-section {
+  width: 50%;
+  height: 100%;
+  margin: 0 0 0 80px;
+}
+
+.tweet-form {
+  background-color: #E8F4FA;
+  text-align: center;
+}
+
+.tweet-form input[type="text"] {
+  margin: 1rem;
+  padding: 0 1rem;
+  width: 70%;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  height: 2.3rem;
+}
+
+.tweet-form input[type="submit"] {
+  background-color: #2695E0;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem;
+}
+
+.tweet-wrapper {
+  padding: 0rem;
+  border: solid 1px #E6ECF0;
+  border-bottom: solid 1px #E6ECF0;
+}
+
+.tweet-item-container {
+	display: flex;
+	border-bottom: solid 1px #E6ECF0;
+}
+
+.tweet-item-container img {
+  margin: 5px 10px 10px 5px;
+  max-width: 50px;  /* 画像の最大幅を指定 */
+  max-height: 50px; /* 画像の最大高さを指定 */
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.tweet-username {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.tweet-text {
+  overflow-wrap: anywhere;
+}
+
+
